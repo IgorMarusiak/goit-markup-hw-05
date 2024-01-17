@@ -560,7 +560,41 @@
       </div>
     </footer>
     <div class="backdrop">
-      <div class="modal"></div>
+      <div class="modal">
+        <button type="button" class="modal-close-btn">x</button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+          <div class="modal-input-wrapper">
+            <input
+              type="text"
+              required
+              name="user-name"
+              class="modal-input"
+              placeholder="Name"
+            />
+          </div>
+          <div class="modal-input-wrapper">
+            <input
+              type="tel"
+              required
+              name="user-phone"
+              class="modal-input"
+              placeholder="Phone"
+            />
+          </div>
+          <div class="modal-input-wrapper">
+            <input
+              type="email"
+              required
+              name="user-mail"
+              class="modal-input"
+              placeholder="Email"
+            />
+          </div>
+
+          <button type="submit">Send</button>
+        </form>
+      </div>
     </div>
   </body>
 </html>
