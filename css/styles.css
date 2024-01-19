@@ -604,19 +604,19 @@ ul {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close-btn {
-  margin-left: auto;
   position: absolute;
+  margin-left: auto;
   top: 24px;
   right: 24px;
   width: 24px;
   height: 24px;
-  fill: #e7e9fc;
+  /* fill: #e7e9fc; */
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #e7e9fc;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-color: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -632,17 +632,24 @@ ul {
 .modal-icon-close {
   align-items: center;
 }
+.modal-icon-close:hover {
+  fill: #ffffff;
+}
+.modal-icon-close:focus {
+  fill: #ffffff;
+}
 .modal-title {
   color: #2e2f42;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.15;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
   width: 360px;
   margin-top: 48px;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .modal-input {
@@ -689,7 +696,7 @@ ul {
   letter-spacing: 0.48px;
 }
 .modal-field {
-  margin-bottom: 18px;
+  margin-bottom: 8px;
 }
 .mdoal-label {
   display: block;
@@ -697,17 +704,26 @@ ul {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 14px; /* 116.667% */
-  letter-spacing: 0.48px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
   margin-bottom: 4px;
 }
-.modal-icon {
+.modal-icon-name {
   /* fill: transparent;
   stroke: #4d5ae5; */
   position: absolute;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #4d5ae5;
 }
 .modal-coments {
   width: 360px;
