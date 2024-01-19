@@ -597,13 +597,14 @@ ul {
   position: absolute;
   top: 50%;
   left: 50%;
-  padding: 72px 24px 24px 24px;
+
   transform: translate(-50%, -50%);
   padding: 24px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal-close-btn {
   position: absolute;
   margin-left: auto;
@@ -632,12 +633,13 @@ ul {
 }
 .modal-icon-close {
   align-items: center;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-icon-close:hover {
   fill: #ffffff;
 }
 .modal-icon-close:focus {
-  /* fill: #ffffff; */
+  fill: #ffffff;
 }
 .modal-title {
   color: #2e2f42;
@@ -699,7 +701,7 @@ ul {
 .modal-field {
   margin-bottom: 8px;
 }
-.mdoal-label {
+.modal-label {
   display: block;
   color: var(--LIGHT-SLATE, #8e8f99);
   font-size: 12px;
@@ -717,6 +719,9 @@ ul {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-icon-name :focus {
+  fill: #4d5ae5;
 }
 .modal-icon {
   position: absolute;
