@@ -629,6 +629,9 @@ ul {
   background-color: #404bbf;
   border: none;
 }
+.modal-icon-close {
+  align-items: center;
+}
 .modal-title {
   color: #2e2f42;
   font-family: Roboto;
@@ -705,4 +708,17 @@ ul {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
+}
+.modal-coments {
+  width: 360px;
+  height: 120px;
+  background-color: transparent;
+  border-radius: 4px;
+  transition-property: border-color;
+  transition-duration: 250ms;
+  border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 24px 26px;
+  outline: transparent;
+  resize: none;
 }
