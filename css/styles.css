@@ -675,6 +675,17 @@ ul {
   position: relative;
   margin-bottom: 8px;
 }
+.modal-field {
+  color: var(--LIGHT-SLATE, #8e8f99);
+
+  /* Small Text */
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 116.667% */
+  letter-spacing: 0.48px;
+}
 .modall-input::placeholder {
   color: var(--LIGHT-SLATE, #8e8f99);
   /* Small Text */
@@ -731,30 +742,20 @@ ul {
 .modal-comment:focus {
   border-color: #4d5ae5;
 }
-.modal-field {
-  color: var(--LIGHT-SLATE, #8e8f99);
+.modal-input-checkbox {
+  margin-bottom: 24px;
+}
+.checkbox-policy:checked + .checkbox-text .checkbox-input {
+  background-color: #404bbf;
+}
+.checkbox-policy:checked + .checkbox-text .checkbox-input {
+  background-color: #404bbf;
+}
 
-  /* Small Text */
-  font-family: Roboto;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 14px; /* 116.667% */
-  letter-spacing: 0.48px;
+.checkbox-policy:checked + .checkbox-text .checkbox-input .check-icon {
+  fill: #f4f4fd;
 }
-.checkbox-text {
-  color: var(--LIGHT-SLATE, #8e8f99);
-
-  /* Small Text */
-  font-family: Roboto;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-}
-.checkbox-policy {
-  visibility: hidden;
-}
-.checkbox-text a {
+.checkbox-link {
   color: var(--IRIS, #4d5ae5);
 
   /* Link Text */
@@ -765,6 +766,15 @@ ul {
   line-height: 16px;
   letter-spacing: 0.48px;
   text-decoration-line: underline;
+}
+.checkbox-text {
+  color: var(--LIGHT-SLATE, #8e8f99);
+
+  /* Small Text */
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 }
 .checkbox-input {
   width: 16px;
@@ -778,8 +788,22 @@ ul {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  border: none;
 }
 .check-icon {
   stroke-width: 1px;
   stroke: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
+}
+.submit-btn {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
