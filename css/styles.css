@@ -27,9 +27,9 @@ p {
 .body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
-  max-width: 1440px;
+  /* max-width: 1440px;
   width: 100%;
-  margin: 0 auto;
+  margin: 0 auto; */
 }
 
 a {
@@ -788,7 +788,6 @@ ul {
 }
 .checkbox-policy:checked + .checkbox-text .checkbox-input {
   background-color: #404bbf;
-  border: none;
 }
 .checkbox-policy:checked + .checkbox-text .checkbox-input .check-icon {
   fill: #f4f4fd;
