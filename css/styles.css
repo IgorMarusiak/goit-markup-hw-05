@@ -790,8 +790,9 @@ ul {
   background-color: #404bbf;
   border: none;
 }
-.check-icon:checked {
+.checkbox-policy:checked + .checkbox-text .checkbox-input .check-icon {
   fill: #f4f4fd;
+  border: none;
 }
 
 /* .check-icon {
