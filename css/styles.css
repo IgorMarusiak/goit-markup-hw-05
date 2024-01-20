@@ -788,10 +788,10 @@ ul {
 }
 .checkbox-policy:checked + .checkbox-text .checkbox-input {
   background-color: #404bbf;
+  border: none;
 }
 .checkbox-policy:checked + .checkbox-text .checkbox-input .check-icon {
   fill: #f4f4fd;
-  border: none;
 }
 
 /* .check-icon {
