@@ -621,6 +621,7 @@ ul {
   height: 40px;
   min-width: 165px;
   display: flex;
+  cursor: pointer;
   align-items: center;
   justify-content: center;
   font-weight: 500;
