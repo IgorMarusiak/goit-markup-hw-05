@@ -588,10 +588,12 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-left: 80px;
 }
 .subscribe-form {
   display: flex;
   gap: 24px;
+  margin-left: 80px;
 }
 .subrscibe-form-lable {
 }
