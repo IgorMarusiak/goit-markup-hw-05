@@ -745,12 +745,7 @@ ul {
 .modal-input-checkbox {
   margin-bottom: 24px;
 }
-.checkbox-policy:checked + .checkbox-text .checkbox-input {
-  background-color: #404bbf;
-}
-.checkbox-policy:checked + .checkbox-text .checkbox-input .check-icon {
-  fill: #f4f4fd;
-}
+
 .checkbox-link {
   color: #4d5ae5;
   font-family: Roboto;
@@ -760,6 +755,16 @@ ul {
   line-height: 16px;
   letter-spacing: 0.48px;
   text-decoration-line: underline;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 .checkbox-text {
   color: #8e8f99;
@@ -780,6 +785,13 @@ ul {
   display: inline-flex;
   justify-content: center;
   fill: transparent;
+}
+.checkbox-policy:checked + .checkbox-text .checkbox-input {
+  background-color: #404bbf;
+  border: none;
+}
+.checkbox-policy:checked + .checkbox-text .checkbox-input .check-icon {
+  fill: #f4f4fd;
 }
 /* .check-icon {
   stroke-width: 1px;
