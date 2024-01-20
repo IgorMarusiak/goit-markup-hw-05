@@ -791,8 +791,9 @@ ul {
   border: none;
 }
 .checkbox-policy:checked + .checkbox-text .checkbox-input .check-icon {
-  fill: #f4f4fd;
+  fill: var(--ICON-COLOR, #f4f4fd);
 }
+
 /* .check-icon {
   stroke-width: 1px;
   stroke: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
