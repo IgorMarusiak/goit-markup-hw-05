@@ -791,7 +791,7 @@ ul {
   border: none;
 }
 .check-icon:checked {
-  fill: var(--ICON-COLOR, #f4f4fd);
+  fill: #f4f4fd;
 }
 
 /* .check-icon {
