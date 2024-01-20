@@ -790,7 +790,7 @@ ul {
   background-color: #404bbf;
   border: none;
 }
-.check-icon:checked + .checkbox-text .checkbox-input .check-icon {
+.check-icon:checked {
   fill: var(--ICON-COLOR, #f4f4fd);
 }
 
